@@ -127,7 +127,10 @@ body {
 .dropdown-section .accordion-wrapper .accordion-main-body .accordion-item {
   border: none !important;
   border: 1px solid #393939 !important;
-  background: #9b9b9b;
+  background: #474747;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-header {
+  background: #474747;
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button {
   background: #474747;
