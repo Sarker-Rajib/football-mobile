@@ -1,0 +1,76 @@
+.dropdown-section {
+    .nav-tab-wrapper {
+
+        .nav-item {
+            width: 50%;
+
+            .nav-link {
+                width: 100%;
+                border: none;
+                border-radius: 0;
+                background: #474747;
+                border-bottom: 5px solid #474747;
+                color: #fff;
+
+                &.active {
+                    background: #3a3a3a;
+                    border-bottom: 5px solid #bbbbbb;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .accordion-wrapper {
+        .accordion-item {
+            border: 1px solid #393939;
+
+            .main-header {
+                background: #000;
+
+                .accordion-button {
+                    background: #14805e;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: none;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        background: url('../../images/arrow.png');
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+
+        .accordion-main-body {
+            background: #393939;
+
+            .accordion-item {
+                border: 1px solid #393939;
+            }
+
+            .sub-header {
+
+                .accordion-button {
+                    background: #474747;
+                    color: #fff;
+                    border-radius: 0;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    ;
+                }
+            }
+
+            .sub-body {
+                background: #000;
+            }
+        }
+    }
+}
