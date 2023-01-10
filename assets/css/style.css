@@ -60,6 +60,24 @@ body {
   border-bottom: 5px solid #bbbbbb;
   font-weight: bold;
 }
+.dropdown-section .accordion-wrapper .swiper .swiper-slide {
+  text-align: center;
+}
+.dropdown-section .accordion-wrapper .swiper .swiper-slide .slider-card {
+  padding: 35px;
+  background: #474747;
+  height: 100%;
+}
+.dropdown-section .accordion-wrapper .swiper .swiper-slide .slider-card p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.dropdown-section .accordion-wrapper .swiper .swiper-button-next::after {
+  font-size: 20px;
+}
+.dropdown-section .accordion-wrapper .swiper .swiper-button-prev::after {
+  font-size: 20px;
+}
 .dropdown-section .accordion-wrapper .accordion-item {
   border: 1px solid #393939;
 }

@@ -24,6 +24,63 @@
     .accordion-wrapper {
 
 
+        .swiper {
+            .swiper-slide {
+                text-align: center;
+
+                .slider-card {
+                    padding: 35px;
+                    background: #474747;
+                    height: 100%;
+
+                    p {
+                        font-size: 18px;
+                        line-height: 1.2;
+                    }
+                }
+            }
+
+            .swiper-button-next::after {
+                font-size: 20px;
+            }
+
+            .swiper-button-prev::after {
+                font-size: 20px;
+            }
+
+            // .swiper-button-next {
+            //     top: 400px;
+            //     left: 60px;
+            //     z-index: 99;
+            //     background: var(--sky-blue);
+            //     color: #fff;
+            //     padding: 10px 20px;
+
+            //     @media(max-width: 420px) {
+            //         left: calc(50% + 30px);
+            //         transform: translateX(-50%);
+            //         top: 300px;
+            //     }
+            // }
+
+            // .swiper-button-prev {
+            //     top: 400px;
+            //     left: 10px;
+            //     z-index: 99;
+            //     background: var(--sky-blue);
+            //     color: #fff;
+            //     padding: 10px 20px;
+
+            //     @media(max-width: 420px) {
+            //         left: calc(50% - 30px);
+            //         transform: translateX(-50%);
+            //         top: 300px;
+            //     }
+            // }
+        }
+
+
+
         .accordion-item {
             border: 1px solid #393939;
 
