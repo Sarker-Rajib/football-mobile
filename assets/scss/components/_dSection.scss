@@ -22,6 +22,8 @@
     }
 
     .accordion-wrapper {
+
+
         .accordion-item {
             border: 1px solid #393939;
 
@@ -34,15 +36,15 @@
                     color: #fff;
                     box-shadow: none;
 
-                    &::after {
-                        content: '';
-                        position: absolute;
-                        right: 10px;
-                        top: 50%;
-                        background: url('../../images/arrow.png');
-                        width: 20px;
-                        height: 20px;
-                    }
+                    // &::after {
+                    //     content: '';
+                    //     position: absolute;
+                    //     right: 10px;
+                    //     top: 50%;
+                    //     background: url('../../images/arrow.png');
+                    //     width: 20px;
+                    //     height: 20px;
+                    // }
                 }
             }
         }
@@ -60,16 +62,39 @@
                     background: #474747;
                     color: #fff;
                     border-radius: 0;
+
+                    &:focus {
+                        box-shadow: none;
+                        border: none;
+                    }
                 }
 
-                &:focus {
-                    box-shadow: none;
-                    ;
-                }
             }
 
             .sub-body {
-                background: #000;
+                background: #9b9b9b;
+                padding: 0;
+
+                p {
+                    padding: 10px 20px;
+                    color: #fff;
+                }
+
+                ul {
+                    background: #9b9b9b;
+                    padding: 0;
+
+                    li {
+                        border-bottom: 1px solid #7d7d7d;
+
+                        a {
+                            display: block;
+                            padding: 8px 20px;
+                            margin: 2px 0px;
+                            color: #fff;
+                        }
+                    }
+                }
             }
         }
     }

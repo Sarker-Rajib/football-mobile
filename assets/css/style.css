@@ -72,15 +72,6 @@ body {
   color: #fff;
   box-shadow: none;
 }
-.dropdown-section .accordion-wrapper .accordion-item .main-header .accordion-button::after {
-  content: "";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  background: url("../../images/arrow.png");
-  width: 20px;
-  height: 20px;
-}
 .dropdown-section .accordion-wrapper .accordion-main-body {
   background: #393939;
 }
@@ -92,11 +83,30 @@ body {
   color: #fff;
   border-radius: 0;
 }
-.dropdown-section .accordion-wrapper .accordion-main-body .sub-header:focus {
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button:focus {
   box-shadow: none;
+  border: none;
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-body {
-  background: #000;
+  background: #9b9b9b;
+  padding: 0;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-body p {
+  padding: 10px 20px;
+  color: #fff;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-body ul {
+  background: #9b9b9b;
+  padding: 0;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-body ul li {
+  border-bottom: 1px solid #7d7d7d;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-body ul li a {
+  display: block;
+  padding: 8px 20px;
+  margin: 2px 0px;
+  color: #fff;
 }
 
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
