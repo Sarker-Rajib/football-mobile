@@ -129,6 +129,7 @@ body {
   color: #fff;
   border-radius: 0;
   padding: 12px 20px;
+  box-shadow: none;
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button:not(.collapsed) {
   box-shadow: none !important;
@@ -164,6 +165,10 @@ body {
   padding: 8px 20px;
   margin: 2px 0px;
   color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
 }
 
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
