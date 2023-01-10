@@ -36,15 +36,9 @@
                     color: #fff;
                     box-shadow: none;
 
-                    // &::after {
-                    //     content: '';
-                    //     position: absolute;
-                    //     right: 10px;
-                    //     top: 50%;
-                    //     background: url('../../images/arrow.png');
-                    //     width: 20px;
-                    //     height: 20px;
-                    // }
+                    &::after {
+                        background-image: url('../images/arrow.png');
+                    }
                 }
             }
         }
@@ -54,6 +48,7 @@
 
             .accordion-item {
                 border: 1px solid #393939;
+                background: #9b9b9b;
             }
 
             .sub-header {
@@ -63,9 +58,18 @@
                     color: #fff;
                     border-radius: 0;
 
+                    img {
+                        width: 28px;
+                        height: 17px;
+                    }
+
                     &:focus {
                         box-shadow: none;
                         border: none;
+                    }
+
+                    &::after {
+                        background-image: url('../images/arrow.png');
                     }
                 }
 

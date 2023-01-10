@@ -72,20 +72,31 @@ body {
   color: #fff;
   box-shadow: none;
 }
+.dropdown-section .accordion-wrapper .accordion-item .main-header .accordion-button::after {
+  background-image: url("../images/arrow.png");
+}
 .dropdown-section .accordion-wrapper .accordion-main-body {
   background: #393939;
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .accordion-item {
   border: 1px solid #393939;
+  background: #9b9b9b;
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button {
   background: #474747;
   color: #fff;
   border-radius: 0;
 }
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button img {
+  width: 28px;
+  height: 17px;
+}
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button:focus {
   box-shadow: none;
   border: none;
+}
+.dropdown-section .accordion-wrapper .accordion-main-body .sub-header .accordion-button::after {
+  background-image: url("../images/arrow.png");
 }
 .dropdown-section .accordion-wrapper .accordion-main-body .sub-body {
   background: #9b9b9b;
