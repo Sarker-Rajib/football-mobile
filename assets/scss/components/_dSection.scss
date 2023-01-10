@@ -55,19 +55,19 @@
 
             .swiper-button-next::after {
                 font-size: 20px;
+                font-weight: bold;
             }
 
             .swiper-button-prev::after {
                 font-size: 20px;
+                font-weight: bold;
             }
 
             .swiper-button-next {
-                background: rgba(38, 177, 79, 0.507);
                 color: #fff;
             }
 
             .swiper-button-prev {
-                background: rgba(38, 177, 79, 0.507);
                 color: #fff;
             }
         }
@@ -85,6 +85,11 @@
                     border-radius: 0;
                     color: #fff;
                     box-shadow: none;
+                    padding: 14px 20px;
+
+                    &:not(.collapsed) {
+                        box-shadow: none !important;
+                    }
 
                     &::after {
                         background-image: url('../images/arrow.png');
@@ -107,6 +112,11 @@
                     background: #474747;
                     color: #fff;
                     border-radius: 0;
+                    padding: 12px 20px;
+
+                    &:not(.collapsed) {
+                        box-shadow: none !important;
+                    }
 
                     img {
                         width: 28px;
@@ -139,7 +149,7 @@
                     padding: 0;
 
                     li {
-                        border-bottom: 1px solid #7d7d7d;
+                        border-bottom: 1px solid #666666;
 
                         a {
                             display: block;
