@@ -99,7 +99,8 @@ body {
   color: #fff;
 }
 .dropdown-section .accordion-wrapper .accordion-item {
-  border: 1px solid #393939;
+  border: none !important;
+  border-bottom: 1px solid #393939 !important;
 }
 .dropdown-section .accordion-wrapper .accordion-item .main-header {
   background: #000;
