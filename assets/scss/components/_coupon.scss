@@ -1,4 +1,21 @@
 .coupon-content {
+    position: relative;
+    overflow: hidden;
+
+    .arrow {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 5px;
+        width: 22px;
+        height: 15px;
+        top: 12px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
     .nav-tabs {
         display: flex;
         flex-wrap: nowrap;

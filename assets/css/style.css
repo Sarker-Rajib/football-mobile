@@ -180,9 +180,23 @@ body {
 }
 
 .coupon-content {
+  position: relative;
+  overflow: hidden;
   /* Track */
   /* Handle */
   /* Handle on hover */
+}
+.coupon-content .arrow {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: 5px;
+  width: 22px;
+  height: 15px;
+  top: 12px;
+}
+.coupon-content .arrow img {
+  height: 100%;
+  width: 100%;
 }
 .coupon-content .nav-tabs {
   display: flex;
