@@ -104,6 +104,13 @@
                     &.head {
                         background: #a7a7a7;
 
+                        .ddate {
+                            flex-grow: 1;
+                        }
+
+                        .numx {
+                            width: 14%;
+                        }
                     }
                 }
             }
